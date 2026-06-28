@@ -61,10 +61,10 @@ def show():        #function create
  print(name)       #print the global variable
 show()      # call function
 
-name="rinku" ,"khusbu","dimpal"
+name="rinku" ,"khusbu","dimpal","deepika"
 print(name)
-n1,n2,n3=name
-print(n3,n1,n2)
+n1,n2,n3,n4=name
+print(n4,n3,n2,n1)
 
 
   
