@@ -5,6 +5,7 @@ print(name)
 # tuples in python
 # ()
 number=(1,2,3,4,[5,6,7,8,9],10)    #tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+print(number)    #print the tuple
 a=list(number)          #
 print(a.insert(5, 11))    #insert an element at a specific index
 print(a)    #print the tuple
@@ -12,7 +13,7 @@ number=tuple(a)
 print(number)
 print(len(number))
 
-num=("rinku",2,"khushbu")
+num=("rinku",2,"khushbu")    #concatenation of tuple
 text=("deepika",5,2)
 b=num+text
 print(b)
