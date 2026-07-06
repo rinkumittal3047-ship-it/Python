@@ -1,6 +1,6 @@
-#dictionery= store the key-value pairs. 
-#key always unique and value can be duplicate.
- #dictionery is a collection which is ordered and changeable. Does not allow duplicates.
+# dictionery= store the key-value pairs. 
+# key always unique and value can be duplicate.
+#  dictionery is a collection which is ordered and changeable. Does not allow duplicates.
 
 languages={
     "python":"best",
@@ -9,6 +9,12 @@ languages={
 }  
 print(languages)  
 print(len(languages))   #by using len() function we can find the length of dictionery
+
+name=dict()     #creating an empty dictionery using dict() constructor
+print(name)
+
+name={}         #creating an empty dictionery using {} constructor
+print(name)
 
 languages={
     "python":"best",
@@ -39,6 +45,10 @@ values1=dict(values)
 print(values1)   #print the dictionery
 print(type(values1))   #by using type() function we can find the data type of variable
 
+num=["rinku",24,True] #this syntax is not correct because there is no key-value pair in the list. So we can not convert this list into dictionery.
+num1=dict(num)
+print(num1)
+
 print(values1["name"])   #by using key we can access the value of dictionery
 
 #if key does not exist then it will give error. To avoid this we can use get() function.
@@ -56,24 +66,24 @@ student={
 student["city"]="delhi"   #by using key we can add the value in dictionery
 print(student)   #print the dictionery
 
-# #//update method is used to add multiple elements in dictionery.
-student["age"]=21   #by using key we can update the value in dictionery
-print(student)   #print the dictionery
+# # #//update method is used to add multiple elements in dictionery.
+# student["age"]=21   #by using key we can update the value in dictionery
+# print(student)   #print the dictionery
 
-# #//using  multiple values update method we can add multiple elements in dictionery.
+# # #//using  multiple values update method we can add multiple elements in dictionery.
 student.update({               #//using update() function we can add the value in dictionery
     "city":"delhi",
     "course":"python",
 })
 print(student)
 
-# #//pop method is used to remove a single element in dictionery.
-removed_value=student.pop("course")   #by using pop() function we can remove the value from dictionery
-print(removed_value)   #print the removed value
-print(student)   #print the dictionery
+# # #//pop method is used to remove a single element in dictionery.
+# removed_value=student.pop("course")   #by using pop() function we can remove the value from dictionery
+# print(removed_value)   #print the removed value
+# print(student)   #print the dictionery
 
-student.popitem()   #by using popitem() function we can remove the last inserted value from dictionery
-print(student)   #print the dictionery
+# student.popitem()   #by using popitem() function we can remove the last inserted value from dictionery
+# print(student)   #print the dictionery
 
 student={
     

@@ -42,8 +42,8 @@
 # skills.add("html")   #by using add() function we can add the value in set
 # print(skills)
 
-num1={1,2,3,4,5}
-num2={4,5,6,7,8}
+# num1={1,2,3,4,5}
+# num2={4,5,6,7,8}
 # num1.update(num2)   #by using update() function we can add the value in set
 # print(num1)   #print the set
 
@@ -62,11 +62,12 @@ num2={4,5,6,7,8}
 # num1.pop()   #by using pop() function we can remove the random value from set
 # print(num1)
 
-print(num1.intersection(num2))   #by using intersection() function we can find the common value in set
+#print(num1.intersection(num2))   #by using intersection() function we can find the common value in set
 
 email=["rinku@123gmail.com","dimpal@234gmail.com","rinku@123gmail.com","dimpal@234gmail.com"]
 a=set(email)
 print(a)
+
 
 
 

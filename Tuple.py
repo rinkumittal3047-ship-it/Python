@@ -39,3 +39,5 @@ print(t1[first+1:].index(43)+first+1)
 
 
 
+
+
