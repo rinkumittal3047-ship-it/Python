@@ -1,6 +1,6 @@
-age=18        
- #if statement:
- 
+#if statement:
+
+age=18      
 if age>=18:
         print("you are an adult")
 print("you are not adult")
@@ -48,7 +48,7 @@ print("power",a**b)
 
 # relational operators
 p=20
-r=15
+r=15 
 print(p==r)   #equal to 
 print(p!=r)   #not equal to
 print(p>r)    #greater than
@@ -96,7 +96,15 @@ print(a1 ^ b1)    #xor operator
 print(a1 << b1)   # left shift operator
 print(a1 >> b1)   # right shift operator
 
-
+username="admin"
+password="1234"
+entered_username =input("username")
+entered_password=input("password")
+if entered_username==username and entered_password==password:
+    print("login succesful")
+else:
+    print("incorrect username and password")    
+                       
 
     
 
