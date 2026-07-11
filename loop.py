@@ -43,3 +43,11 @@ sum = 0
 for i in range(1,21):
      sum = sum+i
 print("sum of 1 to 20 numbers is :",sum)
+
+# break statement:
+for i in range(1,5):
+    if i==3:
+        break
+    print(i)
+
+# continue statement:
