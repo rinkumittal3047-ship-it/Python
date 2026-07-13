@@ -31,5 +31,44 @@ print(identity["person2"]["height"])
 print(identity["person2"].get("course","course not found"))
 
 
+
+
+# def greet(name="rinku"):
+#      print("hello",name)
+# greet()
+
+# x=5
+# y=6
+# print(x**y)  #** means power of value
+
+print(bool([]),bool([0]))
+# false true
+
+a=15
+b=4
+result= a // b
+print(result)
+# // divide 
+
+s="hello"
+print(s[:3],s[-2:])
+
+
+a=[1,2,3,3]
+b=a
+b.append(4)
+print(a)
+
+d={"a":15,"b":16}
+print(d.get("c",18))
+
+for i in range(1,5,2):
+    print(i,end=" ")
+
+
+
+
+
+
         
 
